@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17A88292410127A00F8AE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A88282410127A00F8AE89 /* AppDelegate.m */; };
+		C17A882C2410127A00F8AE89 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A882B2410127A00F8AE89 /* SceneDelegate.m */; };
+		C17A882F2410127A00F8AE89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A882E2410127A00F8AE89 /* ViewController.m */; };
+		C17A88322410127A00F8AE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17A88302410127A00F8AE89 /* Main.storyboard */; };
+		C17A88342410127C00F8AE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17A88332410127C00F8AE89 /* Assets.xcassets */; };
+		C17A88372410127C00F8AE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17A88352410127C00F8AE89 /* LaunchScreen.storyboard */; };
+		C17A883A2410127C00F8AE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A88392410127C00F8AE89 /* main.m */; };
+		C17A88442410127C00F8AE89 /* PSI_FS_APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A88432410127C00F8AE89 /* PSI_FS_APPTests.m */; };
+		C17A884F2410127C00F8AE89 /* PSI_FS_APPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A884E2410127C00F8AE89 /* PSI_FS_APPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C17A88402410127C00F8AE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C17A881C2410127A00F8AE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17A88232410127A00F8AE89;
+			remoteInfo = "PSI-FS-APP";
+		};
+		C17A884B2410127C00F8AE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C17A881C2410127A00F8AE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17A88232410127A00F8AE89;
+			remoteInfo = "PSI-FS-APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17A88242410127A00F8AE89 /* PSI-FS-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSI-FS-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17A88272410127A00F8AE89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C17A88282410127A00F8AE89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C17A882A2410127A00F8AE89 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C17A882B2410127A00F8AE89 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C17A882D2410127A00F8AE89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C17A882E2410127A00F8AE89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C17A88312410127A00F8AE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C17A88332410127C00F8AE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C17A88362410127C00F8AE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C17A88382410127C00F8AE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17A88392410127C00F8AE89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C17A883F2410127C00F8AE89 /* PSI-FS-APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSI-FS-APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17A88432410127C00F8AE89 /* PSI_FS_APPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSI_FS_APPTests.m; sourceTree = "<group>"; };
+		C17A88452410127C00F8AE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17A884A2410127C00F8AE89 /* PSI-FS-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSI-FS-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17A884E2410127C00F8AE89 /* PSI_FS_APPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSI_FS_APPUITests.m; sourceTree = "<group>"; };
+		C17A88502410127C00F8AE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C17A88212410127A00F8AE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17A883C2410127C00F8AE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17A88472410127C00F8AE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C17A881B2410127A00F8AE89 = {
+			isa = PBXGroup;
+			children = (
+				C17A88262410127A00F8AE89 /* PSI-FS-APP */,
+				C17A88422410127C00F8AE89 /* PSI-FS-APPTests */,
+				C17A884D2410127C00F8AE89 /* PSI-FS-APPUITests */,
+				C17A88252410127A00F8AE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C17A88252410127A00F8AE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17A88242410127A00F8AE89 /* PSI-FS-APP.app */,
+				C17A883F2410127C00F8AE89 /* PSI-FS-APPTests.xctest */,
+				C17A884A2410127C00F8AE89 /* PSI-FS-APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17A88262410127A00F8AE89 /* PSI-FS-APP */ = {
+			isa = PBXGroup;
+			children = (
+				C17A88272410127A00F8AE89 /* AppDelegate.h */,
+				C17A88282410127A00F8AE89 /* AppDelegate.m */,
+				C17A882A2410127A00F8AE89 /* SceneDelegate.h */,
+				C17A882B2410127A00F8AE89 /* SceneDelegate.m */,
+				C17A882D2410127A00F8AE89 /* ViewController.h */,
+				C17A882E2410127A00F8AE89 /* ViewController.m */,
+				C17A88302410127A00F8AE89 /* Main.storyboard */,
+				C17A88332410127C00F8AE89 /* Assets.xcassets */,
+				C17A88352410127C00F8AE89 /* LaunchScreen.storyboard */,
+				C17A88382410127C00F8AE89 /* Info.plist */,
+				C17A88392410127C00F8AE89 /* main.m */,
+			);
+			path = "PSI-FS-APP";
+			sourceTree = "<group>";
+		};
+		C17A88422410127C00F8AE89 /* PSI-FS-APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				C17A88432410127C00F8AE89 /* PSI_FS_APPTests.m */,
+				C17A88452410127C00F8AE89 /* Info.plist */,
+			);
+			path = "PSI-FS-APPTests";
+			sourceTree = "<group>";
+		};
+		C17A884D2410127C00F8AE89 /* PSI-FS-APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C17A884E2410127C00F8AE89 /* PSI_FS_APPUITests.m */,
+				C17A88502410127C00F8AE89 /* Info.plist */,
+			);
+			path = "PSI-FS-APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C17A88232410127A00F8AE89 /* PSI-FS-APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17A88532410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APP" */;
+			buildPhases = (
+				C17A88202410127A00F8AE89 /* Sources */,
+				C17A88212410127A00F8AE89 /* Frameworks */,
+				C17A88222410127A00F8AE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PSI-FS-APP";
+			productName = "PSI-FS-APP";
+			productReference = C17A88242410127A00F8AE89 /* PSI-FS-APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C17A883E2410127C00F8AE89 /* PSI-FS-APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17A88562410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APPTests" */;
+			buildPhases = (
+				C17A883B2410127C00F8AE89 /* Sources */,
+				C17A883C2410127C00F8AE89 /* Frameworks */,
+				C17A883D2410127C00F8AE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C17A88412410127C00F8AE89 /* PBXTargetDependency */,
+			);
+			name = "PSI-FS-APPTests";
+			productName = "PSI-FS-APPTests";
+			productReference = C17A883F2410127C00F8AE89 /* PSI-FS-APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C17A88492410127C00F8AE89 /* PSI-FS-APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17A88592410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APPUITests" */;
+			buildPhases = (
+				C17A88462410127C00F8AE89 /* Sources */,
+				C17A88472410127C00F8AE89 /* Frameworks */,
+				C17A88482410127C00F8AE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C17A884C2410127C00F8AE89 /* PBXTargetDependency */,
+			);
+			name = "PSI-FS-APPUITests";
+			productName = "PSI-FS-APPUITests";
+			productReference = C17A884A2410127C00F8AE89 /* PSI-FS-APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C17A881C2410127A00F8AE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Dave Geoghegan";
+				TargetAttributes = {
+					C17A88232410127A00F8AE89 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C17A883E2410127C00F8AE89 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C17A88232410127A00F8AE89;
+					};
+					C17A88492410127C00F8AE89 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C17A88232410127A00F8AE89;
+					};
+				};
+			};
+			buildConfigurationList = C17A881F2410127A00F8AE89 /* Build configuration list for PBXProject "PSI-FS-APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C17A881B2410127A00F8AE89;
+			productRefGroup = C17A88252410127A00F8AE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17A88232410127A00F8AE89 /* PSI-FS-APP */,
+				C17A883E2410127C00F8AE89 /* PSI-FS-APPTests */,
+				C17A88492410127C00F8AE89 /* PSI-FS-APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17A88222410127A00F8AE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17A88372410127C00F8AE89 /* LaunchScreen.storyboard in Resources */,
+				C17A88342410127C00F8AE89 /* Assets.xcassets in Resources */,
+				C17A88322410127A00F8AE89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17A883D2410127C00F8AE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17A88482410127C00F8AE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C17A88202410127A00F8AE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17A882F2410127A00F8AE89 /* ViewController.m in Sources */,
+				C17A88292410127A00F8AE89 /* AppDelegate.m in Sources */,
+				C17A883A2410127C00F8AE89 /* main.m in Sources */,
+				C17A882C2410127A00F8AE89 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17A883B2410127C00F8AE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17A88442410127C00F8AE89 /* PSI_FS_APPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17A88462410127C00F8AE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17A884F2410127C00F8AE89 /* PSI_FS_APPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C17A88412410127C00F8AE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C17A88232410127A00F8AE89 /* PSI-FS-APP */;
+			targetProxy = C17A88402410127C00F8AE89 /* PBXContainerItemProxy */;
+		};
+		C17A884C2410127C00F8AE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C17A88232410127A00F8AE89 /* PSI-FS-APP */;
+			targetProxy = C17A884B2410127C00F8AE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C17A88302410127A00F8AE89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17A88312410127A00F8AE89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C17A88352410127C00F8AE89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17A88362410127C00F8AE89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C17A88512410127C00F8AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C17A88522410127C00F8AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17A88542410127C00F8AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-FS-APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C17A88552410127C00F8AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-FS-APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C17A88572410127C00F8AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-FS-APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSI-FS-APP.app/PSI-FS-APP";
+			};
+			name = Debug;
+		};
+		C17A88582410127C00F8AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-FS-APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSI-FS-APP.app/PSI-FS-APP";
+			};
+			name = Release;
+		};
+		C17A885A2410127C00F8AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-FS-APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PSI-FS-APP";
+			};
+			name = Debug;
+		};
+		C17A885B2410127C00F8AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PSI-FS-APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PSI-FS-APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17A881F2410127A00F8AE89 /* Build configuration list for PBXProject "PSI-FS-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A88512410127C00F8AE89 /* Debug */,
+				C17A88522410127C00F8AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17A88532410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A88542410127C00F8AE89 /* Debug */,
+				C17A88552410127C00F8AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17A88562410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A88572410127C00F8AE89 /* Debug */,
+				C17A88582410127C00F8AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17A88592410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17A885A2410127C00F8AE89 /* Debug */,
+				C17A885B2410127C00F8AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C17A881C2410127A00F8AE89 /* Project object */;
+}
