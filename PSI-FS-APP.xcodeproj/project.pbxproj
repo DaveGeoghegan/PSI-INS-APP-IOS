@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17F7B8812FC5B5435E6B0E95 /* Pods_PSI_FS_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599E7EEBFD44C62D89503CE6 /* Pods_PSI_FS_APP.framework */; };
 		C17A88292410127A00F8AE89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A88282410127A00F8AE89 /* AppDelegate.m */; };
 		C17A882C2410127A00F8AE89 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A882B2410127A00F8AE89 /* SceneDelegate.m */; };
 		C17A882F2410127A00F8AE89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A882E2410127A00F8AE89 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		C17A883A2410127C00F8AE89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A88392410127C00F8AE89 /* main.m */; };
 		C17A88442410127C00F8AE89 /* PSI_FS_APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A88432410127C00F8AE89 /* PSI_FS_APPTests.m */; };
 		C17A884F2410127C00F8AE89 /* PSI_FS_APPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17A884E2410127C00F8AE89 /* PSI_FS_APPUITests.m */; };
+		C1B9E4232444FB180077093E /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1B9E4222444FB180077093E /* AirshipConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C17A88242410127A00F8AE89 /* PSI-FS-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSI-FS-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599E7EEBFD44C62D89503CE6 /* Pods_PSI_FS_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSI_FS_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6255B2635F0A4300271C13 /* Pods-PSI-FS-APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSI-FS-APP.debug.xcconfig"; path = "Target Support Files/Pods-PSI-FS-APP/Pods-PSI-FS-APP.debug.xcconfig"; sourceTree = "<group>"; };
+		C17A88242410127A00F8AE89 /* FS Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FS Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17A88272410127A00F8AE89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C17A88282410127A00F8AE89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C17A882A2410127A00F8AE89 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +58,9 @@
 		C17A884A2410127C00F8AE89 /* PSI-FS-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PSI-FS-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17A884E2410127C00F8AE89 /* PSI_FS_APPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSI_FS_APPUITests.m; sourceTree = "<group>"; };
 		C17A88502410127C00F8AE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B9E4212444FA460077093E /* FS Wiki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FS Wiki.entitlements"; sourceTree = "<group>"; };
+		C1B9E4222444FB180077093E /* AirshipConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = AirshipConfig.plist; sourceTree = "<group>"; };
+		F6F57CB7718BE3D5B802501B /* Pods-PSI-FS-APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSI-FS-APP.release.xcconfig"; path = "Target Support Files/Pods-PSI-FS-APP/Pods-PSI-FS-APP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F7B8812FC5B5435E6B0E95 /* Pods_PSI_FS_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,13 +96,15 @@
 				C17A88422410127C00F8AE89 /* PSI-FS-APPTests */,
 				C17A884D2410127C00F8AE89 /* PSI-FS-APPUITests */,
 				C17A88252410127A00F8AE89 /* Products */,
+				DE5F522C1951AA81CE9FC4CF /* Pods */,
+				E1F7DAC9ECCC71209775FB65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C17A88252410127A00F8AE89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C17A88242410127A00F8AE89 /* PSI-FS-APP.app */,
+				C17A88242410127A00F8AE89 /* FS Wiki.app */,
 				C17A883F2410127C00F8AE89 /* PSI-FS-APPTests.xctest */,
 				C17A884A2410127C00F8AE89 /* PSI-FS-APPUITests.xctest */,
 			);
@@ -104,6 +114,7 @@
 		C17A88262410127A00F8AE89 /* PSI-FS-APP */ = {
 			isa = PBXGroup;
 			children = (
+				C1B9E4212444FA460077093E /* FS Wiki.entitlements */,
 				C17A88272410127A00F8AE89 /* AppDelegate.h */,
 				C17A88282410127A00F8AE89 /* AppDelegate.m */,
 				C17A882A2410127A00F8AE89 /* SceneDelegate.h */,
@@ -115,6 +126,7 @@
 				C17A88352410127C00F8AE89 /* LaunchScreen.storyboard */,
 				C17A88382410127C00F8AE89 /* Info.plist */,
 				C17A88392410127C00F8AE89 /* main.m */,
+				C1B9E4222444FB180077093E /* AirshipConfig.plist */,
 			);
 			path = "PSI-FS-APP";
 			sourceTree = "<group>";
@@ -137,6 +149,23 @@
 			path = "PSI-FS-APPUITests";
 			sourceTree = "<group>";
 		};
+		DE5F522C1951AA81CE9FC4CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB6255B2635F0A4300271C13 /* Pods-PSI-FS-APP.debug.xcconfig */,
+				F6F57CB7718BE3D5B802501B /* Pods-PSI-FS-APP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1F7DAC9ECCC71209775FB65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599E7EEBFD44C62D89503CE6 /* Pods_PSI_FS_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17A88532410127C00F8AE89 /* Build configuration list for PBXNativeTarget "PSI-FS-APP" */;
 			buildPhases = (
+				C514FC1E01338FD286BA7987 /* [CP] Check Pods Manifest.lock */,
 				C17A88202410127A00F8AE89 /* Sources */,
 				C17A88212410127A00F8AE89 /* Frameworks */,
 				C17A88222410127A00F8AE89 /* Resources */,
+				F74DD5287F2DCC8113A909BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,7 +185,7 @@
 			);
 			name = "PSI-FS-APP";
 			productName = "PSI-FS-APP";
-			productReference = C17A88242410127A00F8AE89 /* PSI-FS-APP.app */;
+			productReference = C17A88242410127A00F8AE89 /* FS Wiki.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C17A883E2410127C00F8AE89 /* PSI-FS-APPTests */ = {
@@ -243,6 +274,7 @@
 				C17A88372410127C00F8AE89 /* LaunchScreen.storyboard in Resources */,
 				C17A88342410127C00F8AE89 /* Assets.xcassets in Resources */,
 				C17A88322410127A00F8AE89 /* Main.storyboard in Resources */,
+				C1B9E4232444FB180077093E /* AirshipConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +293,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C514FC1E01338FD286BA7987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSI-FS-APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F74DD5287F2DCC8113A909BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSI-FS-APP/Pods-PSI-FS-APP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSI-FS-APP/Pods-PSI-FS-APP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSI-FS-APP/Pods-PSI-FS-APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C17A88202410127A00F8AE89 /* Sources */ = {
@@ -437,32 +511,44 @@
 		};
 		C17A88542410127C00F8AE89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6255B2635F0A4300271C13 /* Pods-PSI-FS-APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PSI-FS-APP/FS Wiki.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = QP66NN724V;
 				INFOPLIST_FILE = "PSI-FS-APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FS Wiki";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C17A88552410127C00F8AE89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F57CB7718BE3D5B802501B /* Pods-PSI-FS-APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PSI-FS-APP/FS Wiki.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = QP66NN724V;
 				INFOPLIST_FILE = "PSI-FS-APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 4.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "PSI.PSI-FS-APP";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FS Wiki";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

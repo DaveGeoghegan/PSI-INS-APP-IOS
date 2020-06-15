@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController: UIViewController;
+
+
+
+// The main web view that is set up in the viewDidLoad method.
+@property (weak, nonatomic) IBOutlet UIView *LaunchPadView;
+@property (weak, nonatomic) IBOutlet UIView *MainWebView;
+@property (strong, nonatomic) IBOutlet UIView *TopLevelView;
+@property (weak, nonatomic) IBOutlet WKWebView *BrowserView;
+@property (weak, nonatomic) IBOutlet UINavigationItem *navBar;
+
 
 
 @end
+
+
 
