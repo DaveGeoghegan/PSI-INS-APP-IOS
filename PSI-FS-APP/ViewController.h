@@ -22,6 +22,9 @@
 @property (weak, nonatomic) IBOutlet UINavigationItem *navBar;
 
 
+@property (weak, nonatomic) IBOutlet UIStackView *IntroStackView;
+@property (weak, nonatomic) IBOutlet UIStackView *LaunchPadStackView;
+
 
 @end
 
